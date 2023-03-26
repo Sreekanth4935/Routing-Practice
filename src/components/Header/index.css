@@ -1,38 +1,48 @@
-/* Write your CSS code here */
-/* Write your CSS code here */
-.bg-container {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.nav-items {
-  font-family: 'Roboto';
+.header-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 32px;
 }
-.first-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.wave-img {
-  height: 35px;
-  padding-right: 10px;
-}
-.second-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 60%;
-  list-style-type: none;
-}
-@media screen and (min-width: 768px) {
-  .second-item {
-    width: 30%;
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
   }
 }
-.nav-link {
-  /* text-decoration: none; */
-  text-decoration-line: none;
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
 }

@@ -7,7 +7,7 @@ const Home = () => (
       alt="home"
       className="home-img"
     />
-    <h1 className="home">Home</h1>
+    <h1 className="home-heading">Home</h1>
   </div>
 )
 
