@@ -7,7 +7,7 @@ import NotFound from './components/NotFound'
 import './App.css'
 
 const App = () => (
-  <>
+  <div className="bg-con">
     <Header />
     <Switch>
       <Route exact path="/" component={Home} />
@@ -15,7 +15,7 @@ const App = () => (
       <Route exact path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
-  </>
+  </div>
 )
 
 export default App
