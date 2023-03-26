@@ -14,23 +14,25 @@ const Header = () => (
         />
         <h1>Wave</h1>
       </div>
-      <div className="second-item">
-        <Link className="nav-link" to="/">
-          <h1>Home</h1>
-        </Link>
+      <ul className="second-item">
+        <li>
+          <Link className="nav-link" to="/">
+            Home
+          </Link>
+        </li>
 
-        <h1 className="nav-link">
-          <Link className="nav-link" to="/about">
+        <li>
+          <Link to="/about" className="nav-link">
             About
           </Link>
-        </h1>
+        </li>
 
-        <h1>
+        <li>
           <Link className="nav-link" to="/contact">
             Contact
           </Link>
-        </h1>
-      </div>
+        </li>
+      </ul>
     </nav>
   </div>
 )

@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: space-between;
   width: 60%;
+  list-style-type: none;
 }
 @media screen and (min-width: 768px) {
   .second-item {
